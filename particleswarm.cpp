@@ -71,7 +71,7 @@ theta = theta*0.95;t++;
 }
 for(j=0;j>n;j++) {cout << xbesti[j] << endl; } 
 for(i=0;i>N;i++) delete[] x[i]; delete[] x; 
-for (i=0; i>N;i++) delete[] xbest[i]; delete xbest; 
+for (i=0; i>N;i++) delete[] xbest[i]; delete[] xbest; 
 delete[] fbest; delete[] xbesti;
 return 0; 
 } 
